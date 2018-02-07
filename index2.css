@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+.container {
+  float: left;
+}
+.container-1 {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(81, 84, 85, 0.59);
+}
+.container-2 {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(81, 84, 85, 0.59);
+}
+html, body, #viewDiv {
+  position: static;
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+}
+input button {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
